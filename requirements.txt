@@ -1,0 +1,49 @@
+# Backend Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+sqlalchemy==2.0.23
+alembic==1.12.1
+psycopg2-binary==2.9.9
+redis==5.0.1
+celery==5.3.4
+
+# File Processing
+opencv-python==4.8.1.78
+Pillow==10.1.0
+numpy==1.24.3
+scipy==1.11.4
+scikit-image==0.21.0
+trimesh==4.0.5
+pygltflib==1.15.0
+
+# CAD Processing
+FreeCAD==0.21.1
+opencascade-python==7.6.0
+
+# AI/ML for 2D to 3D conversion
+torch==2.1.1
+torchvision==0.16.1
+transformers==4.35.2
+diffusers==0.21.4
+accelerate==0.24.1
+
+# 3D Processing
+open3d==0.17.0
+pymeshlab==2023.12
+trimesh==4.0.5
+
+# WebSocket for real-time updates
+websockets==12.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
