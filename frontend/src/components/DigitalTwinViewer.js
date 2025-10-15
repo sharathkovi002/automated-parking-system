@@ -6,6 +6,7 @@ import { ArrowLeft, RotateCcw, ZoomIn, ZoomOut, Play, Pause, Settings, Download,
 import { useQuery } from 'react-query';
 import { digitalTwinService } from '../services/digitalTwinService';
 import { fileService } from '../services/fileService';
+import * as THREE from 'three';
 
 const ViewerContainer = styled.div`
   display: flex;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { Upload, FileText, Image, Cube, TrendingUp, Clock, CheckCircle, AlertCircle } from 'lucide-react';
+import { Upload, FileText, Image, Cube, TrendingUp, Clock, CheckCircle, AlertCircle, Files } from 'lucide-react';
 import { useQuery } from 'react-query';
 import { fileService } from '../services/fileService';
 import { digitalTwinService } from '../services/digitalTwinService';
