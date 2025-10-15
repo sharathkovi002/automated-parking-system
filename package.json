@@ -1,0 +1,27 @@
+{
+  "name": "digital-twin-platform",
+  "version": "1.0.0",
+  "description": "Digital Twin Platform for CAD and 2D Image Conversion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd frontend && npm install",
+    "start": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "digital-twin",
+    "cad",
+    "3d-modeling",
+    "computer-vision",
+    "ai"
+  ],
+  "author": "Digital Twin Platform",
+  "license": "Apache-2.0"
+}
